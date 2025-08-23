@@ -7,6 +7,12 @@ const Meals = require('../models/Meals');
 const Reminder = require('../models/Reminder');
 const Chat = require('../models/Chat');
 const Message = require('../models/Message');
+/**
+ * Auth Controller
+ * This File contains all the authentication related functions
+ * we handle user registration, login, and profile management.
+ * 
+ */
 
 // Register
 exports.register = async (req, res) => {
